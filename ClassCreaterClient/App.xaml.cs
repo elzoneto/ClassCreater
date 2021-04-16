@@ -2,11 +2,15 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ClassCreaterClient.Views;
+using System.Collections.Generic;
+using ClassCreaterClient.Moldes;
 
 namespace ClassCreaterClient
 {
     public partial class App : Application
     {
+        public List<Class> AllClasses;
+        public bool needClassRefresh;
 
         public App()
         {

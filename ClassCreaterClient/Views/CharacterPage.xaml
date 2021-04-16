@@ -2,6 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ClassCreaterClient.Views.CharacterPage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="AddClicked" IconImageSource="add.png" />
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"

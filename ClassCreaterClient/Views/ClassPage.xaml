@@ -12,18 +12,29 @@
         <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
             <StackLayout VerticalOptions="FillAndExpand" Orientation="Vertical" HorizontalOptions="FillAndExpand">
                 <StackLayout Orientation="Horizontal" Margin="5,20,0,20">
-                    <ImageButton Source="tank.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                    <ImageButton Clicked="Tank_Clicked" Source="tank.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Margin="5,20,0,20">
-                    <ImageButton Source="melee.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                    <ImageButton Clicked="Melee_Clicked" Source="melee.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Margin="5,20,0,20">
-                    <ImageButton Source="range.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                    <ImageButton Clicked="Range_Clicked" Source="range.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Margin="5,20,0,20">
-                    <ImageButton Source="healer.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                    <ImageButton Clicked="Healer_Clicked" Source="healer.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout>
+                    <ListView x:Name="classList" ItemsSource="{Binding Class}" Margin="30,0,30,0" ItemSelected="classSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Text="{Binding Name}" Detail="{Binding PopName}" />
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
                 </StackLayout>
             </StackLayout>
+
+
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
