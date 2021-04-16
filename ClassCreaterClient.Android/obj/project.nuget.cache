@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iUtr6WI+eiPpJ/t74vjCAszLsshcV0oV7aTa6F1wE6jwTbdw0r2GNnSDB5IYylN3oFr2iIGAEl+hIykePv5wnA==",
+  "dgSpecHash": "7SpSUcZeAuZb6utGBeO2KOnUeuabHqRlv3frKcPM/vf6qovPKL6zkhSeeT5fn71PudvK8RnO25fweYaUBCt8wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Elzo Neto\\OneDrive - NC (1)\\Desktop\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj",
+  "projectFilePath": "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elzo Neto\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Elzo Neto\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

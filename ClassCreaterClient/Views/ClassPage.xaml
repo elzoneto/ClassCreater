@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClassCreaterClient.Views.ClassPage"
+             Title="{Binding Title}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="AddClicked" IconImageSource="add.png" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout VerticalOptions="FillAndExpand" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Horizontal" Margin="5,20,0,20">
+                    <ImageButton Source="tank.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="5,20,0,20">
+                    <ImageButton Source="melee.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="5,20,0,20">
+                    <ImageButton Source="range.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="5,20,0,20">
+                    <ImageButton Source="healer.png" HeightRequest="95" WidthRequest="350" BackgroundColor="#d8e3e7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
