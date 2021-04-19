@@ -54,7 +54,7 @@ namespace ClassCreaterClient.Data
         // Get ClassByClassType
         public async Task<List<Class>> GetClassesByTypes(int ClassTypeID)
         {
-            var response = await client.GetAsync($"api/Classes/byClassType/{ClassTypeID}");
+            var response = await client.GetAsync($"api/Classes/ByType/{ClassTypeID}");
             if (response.IsSuccessStatusCode)
             {
                 List<Class> classes = await response.Content.ReadAsAsync<List<Class>>();

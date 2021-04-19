@@ -8,6 +8,5 @@ namespace ClassCreaterClient.Moldes
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public ICollection<Class> Class { get; set; }
     }
 }

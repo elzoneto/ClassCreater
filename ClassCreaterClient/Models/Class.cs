@@ -10,7 +10,7 @@ namespace ClassCreaterClient.Moldes
         public string Name { get; set; }
         public int TypeID { get; set; }
         public ClassType Type { get; set; }
-        public ICollection<Character> Characters { get; set; }
+        //public ICollection<Character> Characters { get; set; }
         public Byte[] RowVersion { get; set; }
     }
 }

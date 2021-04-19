@@ -9,13 +9,15 @@ namespace ClassCreaterClient
 {
     public partial class App : Application
     {
-        public List<Class> AllClasses;
+        public List<ClassType> AllClassTypes;
         public bool needClassRefresh;
 
         public App()
         {
             InitializeComponent();
             MainPage = new AppShell();
+            //var nav = new NavigationPage(new ClassPage());
+            //MainPage = nav;
         }
 
         protected override void OnStart()
