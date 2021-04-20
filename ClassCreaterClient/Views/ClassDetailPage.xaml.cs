@@ -85,7 +85,6 @@ namespace ClassCreaterClient.Views
             {
                 return 0;
             }
-
         }
 
         async void SaveClicked(object sender, EventArgs e)

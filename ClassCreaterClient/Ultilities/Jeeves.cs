@@ -9,7 +9,7 @@ namespace ClassCreaterClient.Ultilities
     public static class Jeeves
     {
         //Local WebApi
-        //public static Uri DBUri = new Uri("http://localhost:50783");
+        //public static Uri DBUri = new Uri("http://localhost:50783/");
         //WebApi on Azure
         public static Uri DBUri = new Uri("https://classcreater2021.azurewebsites.net/");
 

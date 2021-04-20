@@ -26,16 +26,16 @@
 
                 <StackLayout Grid.Row="1" VerticalOptions="FillAndExpand" Orientation="Vertical" HorizontalOptions="FillAndExpand">
                     <StackLayout Orientation="Horizontal" Margin="5,10,0,0">
-                        <ImageButton Clicked="Tank_Clicked" Source="tank.png" HeightRequest="55" WidthRequest="350" BackgroundColor="Transparent" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                        <ImageButton Clicked="Tank_Clicked" Source="tank.png" HeightRequest="55" WidthRequest="350" BackgroundColor="Gray" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
-                        <ImageButton Clicked="Melee_Clicked" Source="melee.png" HeightRequest="55" WidthRequest="350" BackgroundColor="Transparent" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                        <ImageButton Clicked="Melee_Clicked" Source="melee.png" HeightRequest="55" WidthRequest="350" BackgroundColor="Gray" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
-                        <ImageButton Clicked="Range_Clicked" Source="range.png" HeightRequest="55" WidthRequest="350" BackgroundColor="Transparent" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                        <ImageButton Clicked="Range_Clicked" Source="range.png" HeightRequest="55" WidthRequest="350" BackgroundColor="Gray" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
-                        <ImageButton Clicked="Healer_Clicked" Source="healer.png" HeightRequest="55" WidthRequest="350" BackgroundColor="Transparent" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                        <ImageButton Clicked="Healer_Clicked" Source="healer.png" HeightRequest="55" WidthRequest="350" BackgroundColor="Gray" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                     </StackLayout>
                 </StackLayout>
                 <StackLayout Grid.Row="2" VerticalOptions="Center" HorizontalOptions="FillAndExpand" >

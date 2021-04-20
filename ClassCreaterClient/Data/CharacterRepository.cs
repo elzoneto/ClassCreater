@@ -27,6 +27,7 @@ namespace ClassCreaterClient.Data
             if (response.IsSuccessStatusCode)
             {
                 Character character = await response.Content.ReadAsAsync<Character>();
+                character.Race.ToString();
                 return character;
             }
             else
@@ -55,7 +56,7 @@ namespace ClassCreaterClient.Data
         // Get CharacterByClass
         public async Task<List<Character>> GetCharactersByClass(int ClassID)
         {
-            var response = await client.GetAsync($"api/Characters/byClass/{ClassID}");
+            var response = await client.GetAsync($"api/Characters/ByClass/{ClassID}");
             if (response.IsSuccessStatusCode)
             {
                 List<Character> character = await response.Content.ReadAsAsync<List<Character>>();

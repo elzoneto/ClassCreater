@@ -47,3 +47,4 @@ C:\PROG1442\PROG1442_Project#2\ClassCreaterClient\ClassCreaterClient\obj\Debug\n
 C:\PROG1442\PROG1442_Project#2\ClassCreaterClient\ClassCreaterClient\obj\Debug\netstandard2.0\ClassCreaterClient.pdb
 C:\PROG1442\PROG1442_Project#2\ClassCreaterClient\ClassCreaterClient\obj\Debug\netstandard2.0\ClassCreaterClient.csprojAssemblyReference.cache
 C:\PROG1442\PROG1442_Project#2\ClassCreaterClient\ClassCreaterClient\obj\Debug\netstandard2.0\Views\ClassDetailPage.xaml.g.cs
+C:\PROG1442\PROG1442_Project#2\ClassCreaterClient\ClassCreaterClient\obj\Debug\netstandard2.0\Views\CharacterDetailsPage.xaml.g.cs

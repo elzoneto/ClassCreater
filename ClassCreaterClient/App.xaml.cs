@@ -10,7 +10,10 @@ namespace ClassCreaterClient
     public partial class App : Application
     {
         public List<ClassType> AllClassTypes;
+        public List<Class> AllClasses;
+        public List<Character> AllCharacters;
         public bool needClassRefresh;
+        public bool needCharacterRefresh;
 
         public App()
         {
