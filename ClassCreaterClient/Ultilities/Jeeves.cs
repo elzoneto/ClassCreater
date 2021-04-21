@@ -11,7 +11,7 @@ namespace ClassCreaterClient.Ultilities
         //Local WebApi
         //public static Uri DBUri = new Uri("http://localhost:50783/");
         //WebApi on Azure
-        public static Uri DBUri = new Uri("https://classcreater2021.azurewebsites.net/");
+        public static Uri DBUri = new Uri("https://classcreator.azurewebsites.net/");
 
         public static ApiException CreateApiException(HttpResponseMessage response)
         {

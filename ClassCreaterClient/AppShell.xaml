@@ -65,6 +65,8 @@
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Class" Icon="blackboard.png" Route="ClassPage" ContentTemplate="{DataTemplate local:ClassPage}" />
         <ShellContent Title="Characters" Icon="assasin.png" Route="CharacterPage" ContentTemplate="{DataTemplate local:CharacterPage}" />
+        <ShellContent Title="Skills" Icon="book.png" Route="SkillPage" ContentTemplate="{DataTemplate local:SkillPage}"/>
+        <ShellContent Title="Quests" Icon="quests.png" Route="QuestPage" ContentTemplate="{DataTemplate local:QuestPage}"/>
     </FlyoutItem>
 
 </Shell>

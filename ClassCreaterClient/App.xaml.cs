@@ -4,6 +4,7 @@ using Xamarin.Forms.Xaml;
 using ClassCreaterClient.Views;
 using System.Collections.Generic;
 using ClassCreaterClient.Moldes;
+using ClassCreaterClient.Models;
 
 namespace ClassCreaterClient
 {
@@ -12,8 +13,10 @@ namespace ClassCreaterClient
         public List<ClassType> AllClassTypes;
         public List<Class> AllClasses;
         public List<Character> AllCharacters;
+        public List<Skill> AllSkills;
         public bool needClassRefresh;
         public bool needCharacterRefresh;
+        public bool needSkillRefresh;
 
         public App()
         {

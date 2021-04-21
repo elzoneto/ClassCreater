@@ -50,13 +50,12 @@
                         <StackLayout Orientation="Horizontal" Padding="20,20,20,20" Margin="0,0,0,20">
                             <Picker x:Name="pickerClass" Title=" Character Class " TitleColor="#ff8303" VerticalOptions="Center" HorizontalOptions="FillAndExpand" TextColor="Gray" FontSize="24"></Picker>
                         </StackLayout>
-                        
+
                         <StackLayout Grid.Row="1">
                             <Button Text="Save" Clicked="SaveClicked" Margin="20,0,20,0"/>
                             <Button Text="Cancel" Clicked="CancelClicked" Margin="20,0,20,0"/>
                             <Button x:Name="btnDelete" Text="Delete" Clicked="DeleteClicked" Margin="20,0,20,0"/>
                         </StackLayout>
-
                     </StackLayout>
                 </StackLayout>
             </Grid>

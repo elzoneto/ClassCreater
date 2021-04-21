@@ -19,7 +19,6 @@ namespace ClassCreaterClient.Data
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-
         // Get Character
         public async Task<Character> GetCharacter(int ID)
         {
