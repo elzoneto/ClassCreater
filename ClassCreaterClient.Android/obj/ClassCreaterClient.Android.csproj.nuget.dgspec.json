@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj": {}
+    "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj": {}
   },
   "projects": {
-    "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj": {
+    "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj",
+        "projectUniqueName": "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj",
         "projectName": "ClassCreaterClient.Android",
-        "projectPath": "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj",
+        "projectPath": "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient.Android\\ClassCreaterClient.Android.csproj",
         "packagesPath": "C:\\Users\\Elzo Neto\\.nuget\\packages\\",
-        "outputPath": "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient.Android\\obj\\",
+        "outputPath": "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient\\ClassCreaterClient.csproj": {
-                "projectPath": "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient\\ClassCreaterClient.csproj"
+              "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient\\ClassCreaterClient.csproj": {
+                "projectPath": "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient\\ClassCreaterClient.csproj"
               }
             }
           }
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient\\ClassCreaterClient.csproj": {
+    "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient\\ClassCreaterClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient\\ClassCreaterClient.csproj",
+        "projectUniqueName": "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient\\ClassCreaterClient.csproj",
         "projectName": "ClassCreaterClient",
-        "projectPath": "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient\\ClassCreaterClient.csproj",
+        "projectPath": "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient\\ClassCreaterClient.csproj",
         "packagesPath": "C:\\Users\\Elzo Neto\\.nuget\\packages\\",
-        "outputPath": "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient\\obj\\",
+        "outputPath": "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

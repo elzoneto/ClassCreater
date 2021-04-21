@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "84P1cR2MVVX6OxDkQ5R93KWbY1mjWrlhBhP4I1W3DtDVHwsu7gCbSGZSNOQGJOLnqotsfcUQxK6k2GOkT0R4bQ==",
+  "dgSpecHash": "BDclfb0i8m7/kEIKXB1UT8WGsdcqQbW4OaCSDVaXxXdF3wJvlUqjRlBYighwIAo3R/otITb4g0jAqwb94rfAoA==",
   "success": true,
-  "projectFilePath": "C:\\PROG1442\\PROG1442_Project#2\\ClassCreaterClient\\ClassCreaterClient\\ClassCreaterClient.csproj",
+  "projectFilePath": "C:\\PROG1442\\Project\\ClassCreater\\ClassCreaterClient\\ClassCreaterClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elzo Neto\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Elzo Neto\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
