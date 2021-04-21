@@ -135,7 +135,7 @@ namespace ClassCreaterClient.Views
                 {
                     sb.AppendLine("-" + error);
                 }
-                thisApp.needClassRefresh = true;
+                thisApp.needCharacterRefresh = true;
                 await DisplayAlert("Problem Saving the Character:", sb.ToString(), "Ok");
             }
             catch (Exception ex)

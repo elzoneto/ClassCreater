@@ -23,7 +23,7 @@ namespace ClassCreaterClient.Views
             InitializeComponent();
             classes = new List<Class>();
             thisApp = Application.Current as App;
-            thisApp.needClassRefresh = true;
+            thisApp.needCharacterRefresh = true;
         }
 
         protected override async void OnAppearing()

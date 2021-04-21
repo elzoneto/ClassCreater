@@ -40,10 +40,11 @@
                 </StackLayout>
                 <StackLayout Grid.Row="2" VerticalOptions="Center" HorizontalOptions="FillAndExpand" >
                     <Label x:Name="classResult" Text="" TextColor="#ff8303" FontSize="36" VerticalTextAlignment="Center"  Padding="30,20,20,0"/>
-                    <ListView Grid.Row="1" x:Name="classList" ItemsSource="{Binding Class}" Margin="30,0,30,0" ItemSelected="classSelected">
+                    <ListView Grid.Row="1" x:Name="classList" ItemsSource="{Binding Class}" Margin="30,0,30,0" ItemSelected="classSelected" RefreshControlColor="Black" 
+                              SeparatorVisibility="Default" SeparatorColor="Gray">
                         <ListView.ItemTemplate>
                             <DataTemplate>
-                                <TextCell Text="{Binding Name}" TextColor="Gray"/>
+                                <TextCell Text="{Binding Name}" Detail="{Binding Details}" DetailColor="#ff8303" TextColor="Black"/>
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>

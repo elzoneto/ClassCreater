@@ -12,6 +12,7 @@ namespace ClassCreaterClient
     {
         public List<ClassType> AllClassTypes;
         public List<Class> AllClasses;
+        public List<Class> AllClassesToSkills;
         public List<Character> AllCharacters;
         public List<Skill> AllSkills;
         public bool needClassRefresh;

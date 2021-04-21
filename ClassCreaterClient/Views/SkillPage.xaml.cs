@@ -61,7 +61,7 @@ namespace ClassCreaterClient.Views
 
         private async Task showClasses()
         {
-            if (!(thisApp.AllClasses?.Count > 0))
+            if (!(thisApp.AllClassesToSkills?.Count > 0))
             {
                 ClassRepository c = new ClassRepository();
                 try

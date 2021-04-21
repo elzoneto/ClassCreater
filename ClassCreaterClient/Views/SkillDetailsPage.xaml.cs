@@ -104,7 +104,7 @@ namespace ClassCreaterClient.Views
                     {
                         await s.UpdateSkill(skill);
                     }
-                    thisApp.needSkillRefresh = true;
+                    thisApp.needClassRefresh = true;
                     await Navigation.PopAsync();
                 }
                 else
@@ -129,7 +129,7 @@ namespace ClassCreaterClient.Views
                 {
                     sb.AppendLine("-" + error);
                 }
-                thisApp.needClassRefresh = true;
+                thisApp.needSkillRefresh = true;
                 await DisplayAlert("Problem Saving the Skill:", sb.ToString(), "Ok");
             }
             catch (Exception ex)

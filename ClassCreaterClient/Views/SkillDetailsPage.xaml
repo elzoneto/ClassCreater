@@ -19,7 +19,7 @@
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" Margin="20,20,20,0">
                             <Editor x:Name="txtDesc" Text="{Binding SkillDescription}" Placeholder="Skill Description" PlaceholderColor="#ff8303" Keyboard="Text" TextColor="Gray" FontSize="24" 
-                                    VerticalOptions="Center"  HorizontalOptions="FillAndExpand"/>
+                                    VerticalOptions="Center"  HorizontalOptions="FillAndExpand" AutoSize="TextChanges"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" Padding="20,20,20,20" Margin="0,0,0,20">
                             <Picker x:Name="pickerClass" Title=" Character Class " TitleColor="#ff8303" VerticalOptions="Center" HorizontalOptions="FillAndExpand" TextColor="Gray" FontSize="24"></Picker>
